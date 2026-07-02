@@ -51,12 +51,7 @@ function ContactCards() {
       lines: ['Call us anytime for inquiries'],
       action: { label: 'Call Now', href: 'tel:+919999999999' },
     },
-    {
-      icon: <MessageCircle size={24} />,
-      title: 'WhatsApp',
-      lines: ['Send us your files via WhatsApp'],
-      action: { label: 'Chat on WhatsApp', href: 'https://wa.me/919999999999' },
-    },
+ 
     {
       icon: <Mail size={24} />,
       title: 'Email',
