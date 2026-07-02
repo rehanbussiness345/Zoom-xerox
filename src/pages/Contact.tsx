@@ -51,7 +51,7 @@ function ContactCards() {
       lines: ['Call us anytime for inquiries'],
       action: { label: 'Call Now', href: 'tel:+919999999999' },
     },
- 
+    
     {
       icon: <Mail size={24} />,
       title: 'Email',
@@ -111,6 +111,23 @@ function ContactCards() {
   );
 }
 
+// ─── Contact Form + Map ─────────────────────────────────
+function ContactFormAndMap() {
+  const { ref, isVisible } = useInView();
+  const [submitted, setSubmitted] = useState(false);
+
+  const handleSubmit = (e: FormEvent) => {
+    e.preventDefault();
+    setSubmitted(true);
+  };
+
+  return (
+    <Section className="bg-surface">
+      
+      </div>
+    </Section>
+  );
+}
 
 // ─── Additional Info ────────────────────────────────────
 function AdditionalInfo() {
